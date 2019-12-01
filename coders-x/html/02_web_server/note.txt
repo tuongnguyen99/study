@@ -1,0 +1,5 @@
+Node static server
+
+npm -g install static-server
+
+static-server
