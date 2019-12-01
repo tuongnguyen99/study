@@ -1,0 +1,28 @@
+.link{
+  text-decoration: none;
+  color: #4a5ef3;
+  font-family: arial, sans-serif;
+}
+.link:hover{
+  color: red;
+  text-decoration: underline;
+}
+.link:active{
+  color: black;
+}
+.link:visited{
+  color: purple;
+}
+.button-link{
+  text-decoration: none;
+  font-family: sans-serif;
+  background-color: red;
+  color: white;
+  padding: 3px 3px;
+}
+.button-link:hover{
+  background-color: white;
+  border: 1px solid red;
+  color: red;
+  transition: 0.3s;
+}
