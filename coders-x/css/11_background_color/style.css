@@ -1,0 +1,13 @@
+body{
+  background-color: #cdd1b6;
+}
+h1{
+  background-color: orange;
+}
+h2{
+  background-color: transparent;
+}
+h3{
+  background: rgb(169,168,193);
+background: linear-gradient(90deg, rgba(169,168,193,1) 0%, rgba(9,9,121,1) 49%, rgba(46,173,199,1) 100%);
+}

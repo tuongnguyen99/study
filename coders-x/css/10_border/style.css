@@ -1,0 +1,33 @@
+h6{
+  border: 2px solid gold;
+  border-radius: 3px;
+}
+h5{
+  border-width: 5px 2px 1px;
+  border-style: solid;
+  border-color: coral;
+}
+h4{
+  border-width: 5px 2px;
+  border-style: solid;
+  border-color: coral;
+}
+h3{
+  border-width: 2px;
+  border-style: solid;
+  border-color: blue;
+}
+h2{
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: pink;
+  border-bottom-width: 2px;
+  border-bottom-style: dashed;
+  border-bttom-color:green;
+  border-left: 3px dotted purple;
+  border-right: 1px solid;
+
+}
+h1{
+  border:  1px dashed tomato;
+}

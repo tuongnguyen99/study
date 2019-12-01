@@ -1,0 +1,19 @@
+body{
+  background-color: gray;
+}
+.item{
+  border: 1px solid white;
+  border-radius: 3px;
+  height: 800px;
+}
+.item-patterm{
+  background-image: url(./patterm.jpg);
+  background-size: contain;
+}
+.item-paralax{
+  height: 400px;
+  background-image: url(./forest.jpg);
+  background-size: corver;
+  background-position: -200px -200px;
+  background-attachment: fixed;
+}
