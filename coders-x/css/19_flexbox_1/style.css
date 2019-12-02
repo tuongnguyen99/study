@@ -1,0 +1,14 @@
+*{
+  color: white;
+  font-family: sans-serif;
+}
+.container-1{
+  background-color:#be80b6;
+  display: flex;
+  flex-direction: column;
+}
+.container-2{
+  background-color: #ed6d60;
+  display: flex;
+  flex-direction: row;
+}

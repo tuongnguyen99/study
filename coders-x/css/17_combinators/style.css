@@ -1,0 +1,25 @@
+.list{
+  font-family: sans-serif;
+}
+.list-1{
+  background-color: #e9e187;
+}
+.list-2{
+  background-color: #9678bd;
+}
+.list-3{
+  background-color: #e38345;
+}
+.list-1 .item-1 .item-2{
+  background-color: black;
+  color: white;
+}
+.list-1 > .item-2{
+  background-color: #e47bcb;
+}
+.list-2 .item-1 + .item{
+  background-color: #74daa0;
+}
+.list-3 .item-1 ~ .item{
+  background-color: #9977ed;
+}

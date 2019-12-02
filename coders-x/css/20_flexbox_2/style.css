@@ -1,0 +1,12 @@
+*{
+  font-family: sans-serif;
+}
+.container{
+  color: #fff;
+  background-color: #ed6d60;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  height: 100px;
+}

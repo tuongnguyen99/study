@@ -1,0 +1,19 @@
+.inline{
+  background-color: orange;
+  width: 200px;
+  height: 100px;
+}
+
+.block{
+  background-color: red;
+  width: 200px;
+  height: 100px;
+}
+.inline-to-block{
+  background-color: blue;
+  display: block;
+}
+.block-to-inline{
+  background-color: brown;
+  display: inline;
+}

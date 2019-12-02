@@ -1,0 +1,50 @@
+body{
+  font-family: sans-serif;
+}
+.large-button{
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #418ef0;
+  margin: 10px;
+}
+.hover-div:hover{
+  background-color: red;
+}
+.hidden-button{
+  display: none;
+}
+.hover-hidden:hover .hidden-button{
+  display: block;
+}
+.list{
+  list-style-type: none;
+}
+.list li{
+  background-color: #e7dee6;
+  margin: 5px;
+  width: 300px;
+  height: 20px;
+  text-align: center;
+  color: rgba(#211a1a, 0.78);
+  text-transform: uppercase;
+}
+li:first-child{
+  color: tomato;
+}
+p::first-line{
+  color: blue;
+}
+p::first-letter{
+  color: red;
+}
+h1::before{
+  content: "This is ";
+}
+::selection{
+  color: #fff;
+  background-color: #5bbfc2;
+}
