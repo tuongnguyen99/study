@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+body{
+  font-family: roboto;
+}
+.zc-container{
+  width: 300px;
+  display: flex;
+  align-items: center;
+  padding:  5px 0;
+  border-bottom: 1px solid #d5d5d5;
+}
+.zc-order{
+  font-weight: bold;
+  font-size: 20px;
+  color: #3a3a3b;
+  padding: 0 10px;
+}
+.zc-info{
+  flex-grow: 1;
+}
+.zc-songname{
+  font-size: 18px;
+  color: #1a1a1b;
+  padding-bottom: 3px;
+}
+.zc-singer{
+  color: #5f5b68;
+  font-size: 15px;
+}
+.zc-share{
+  color: #5f5b68;
+  padding: 0 5px;
+}
