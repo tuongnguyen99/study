@@ -1,0 +1,41 @@
+body{
+  font-family: sans-serif;
+}
+.left-container{
+  width: 110px;
+  height: 110px;
+  background-image: url(https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/a/e/7/5/ae75561db65a23ba6efaf4df2d4e8c3c.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.left-container .order{
+  height: 100%;
+  background: linear-gradient(0deg, rgba(2,0,36,0.8036175710594315) 0%, rgba(181,177,177,0) 100%);
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+  padding: 5px;
+  box-sizing: border-box;
+}
+.container{
+  display: flex;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.right-container{
+    margin: 0 5px;
+}
+.right-container .song-name{
+  text-transform: capitalize;
+  margin-bottom: 5px;
+}
+.right-container .singer{
+  font-size: 14px;
+  color: #898989;
+  margin-bottom: 5px;
+}
+.right-container .view{
+  font-size: 14px;
+  color: #898989;
+  margin-bottom: 5px;
+}

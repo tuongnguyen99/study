@@ -1,0 +1,18 @@
+.container{
+  width: 190px;
+  height: 190px;
+  background-image: url(https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/9/a/7/5/9a75a103483e3789696dbce3e5dc07d8.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.hover-show{
+  height: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  opacity: 0;
+}
+.hover-show:hover{
+  opacity: 1;
+}
