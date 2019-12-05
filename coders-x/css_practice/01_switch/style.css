@@ -1,0 +1,31 @@
+.switch{
+  -webkit-appearance: none;
+  appearance: none;
+  width: 80px;
+  height: 40px;
+  background-color: #ddd;
+  border-radius: 20px;
+  border: 1px solid gray;
+  outline: none;
+  position: relative;
+  transition: 0.5s;
+}
+.switch:checked{
+  background-color: tomato;
+  border: 1px solid tomato;
+}
+
+.switch::before{
+  content : "";
+  background-color: #FFF;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  transition: 0.5s;
+}
+.switch:checked::before{
+    left: 40px;
+}
