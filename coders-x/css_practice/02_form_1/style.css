@@ -1,0 +1,51 @@
+body{
+  font-family: sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+
+.input-group{
+  margin-bottom: 20px;
+  position: relative;
+
+}
+form{
+  width: 300px;
+  background-color: #FFF;
+  border-radius: 10px;
+}
+form h1{
+  text-align: center;
+  font-weight: 300;
+}
+form span{
+  position: absolute;
+  top: 1px;
+  left: 65px;
+}
+form input{
+  background: #FFF;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid tomato;
+  padding: 4px;
+  display: block;
+  margin: 30px auto;
+}
+
+form input:focus + span, form input:valid ~ span{
+  top: -12px;
+  left: 62px;
+}
+form button{
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  height: 35px;
+  border: none;
+  border-radius: 15px;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
