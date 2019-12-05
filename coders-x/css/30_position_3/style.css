@@ -1,0 +1,19 @@
+.box-1{
+  width: 600px;
+  height: 600px;
+  background-color: pink;
+}
+.box-2{
+  width: 400px;
+  height: 400px;
+  background-color: purple;
+  position: relative;
+}
+.box-3{
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}

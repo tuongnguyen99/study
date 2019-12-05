@@ -1,0 +1,28 @@
+.div-1{
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  float: left;
+}
+.div-2{
+  width: 100px;
+  height: 100px;
+  background-color: coral;
+  float: left;
+}
+.div-3{
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+  float: right;
+}
+.footer{
+  width: 200px;
+  height: 10px;
+  background-color: red;
+}
+.container::after{
+  content: "";
+  display: block;
+  clear: both;
+}

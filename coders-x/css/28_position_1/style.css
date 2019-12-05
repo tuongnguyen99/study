@@ -1,0 +1,23 @@
+body{
+  background-color: #ddd;
+}
+.container{
+  display: flex;
+}
+.box {
+  width: 100px;
+  height: 100px;
+}
+.box-red{
+  background-color: red;
+}
+.box-green{
+  background-color: green;
+  position: relative;
+  top: -10px;
+}
+.box-blue{
+  background-color: blue;
+  position: relative;
+  top: 10px;
+}

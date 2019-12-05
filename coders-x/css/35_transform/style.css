@@ -1,0 +1,10 @@
+.transform{
+  width: 100px;
+  height: 100px;
+  background: pink;
+  transition: 0.5s;
+}
+
+.transform:hover{
+  transform: rotate(360deg);
+}

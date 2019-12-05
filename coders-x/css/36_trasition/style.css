@@ -1,0 +1,21 @@
+.item{
+  width: 190px;
+  height: 190px;
+  background-image: url(https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/b/6/d/3/b6d3f9b17c9a3e7a0ce1ff9edd972b76.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.overlay{
+  height: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, rgba(175,171,172,0.09592326139088725) 0%, rgba(2,0,36,0.8513189448441247) 95%);
+  transform: scale(0);
+  transition: 0.1s;
+}
+
+.item:hover .overlay{
+  transform: scale(1);
+}
