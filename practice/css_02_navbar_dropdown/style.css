@@ -1,0 +1,40 @@
+body{
+  font-family: sans-serif;
+}
+.nav{
+  list-style: none;
+}
+.nav a{
+  color: #322E2E;
+  text-decoration: none;
+}
+.nav li{
+  width: 100px;
+  height: 20px;
+  float: left;
+  margin: 0px 20px;
+  text-align: center;
+  padding: 5px;
+}
+.sup-nav{
+  position: relative;
+}
+.sub-nav{
+  position: absolute;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  top: 100%;
+  left: 0px;
+  visibility: hidden;
+}
+.sub-nav li{
+  padding: 0;
+  margin: 0;
+}
+.nav li:hover{
+  background-color: green;
+}
+.nav li:hover .sub-nav{
+  visibility: visible;
+}
