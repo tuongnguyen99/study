@@ -1,4 +1,4 @@
-body{
+body {
   font-family: sans-serif;
   display: flex;
   height: 100vh;
@@ -7,45 +7,76 @@ body{
   background-color: #eee;
 }
 
-.input-group{
+.input-group {
   margin-bottom: 20px;
   position: relative;
-
 }
-form{
+
+form {
   width: 300px;
   background-color: #FFF;
   border-radius: 10px;
+  box-shadow: 2px 2px 8px -2px rgb(222, 223, 223);
 }
-form h1{
+
+form h1 {
   text-align: center;
   font-weight: 300;
+  color: rgba(245, 106, 62, 0.9);
+  text-shadow: 2px 2px rgba(212, 201, 193, 20%);
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
-form span{
+
+form span {
   position: absolute;
   top: 1px;
   left: 65px;
+  color: #989595;
+  transition: 0.5s;
+  font-size: 14px;
 }
-form input{
+
+form input {
   background: #FFF;
   border: none;
   outline: none;
   border-bottom: 2px solid tomato;
-  padding: 4px;
+  padding: 4px 2px;
   display: block;
   margin: 30px auto;
+  color: #4F5050;
 }
 
-form input:focus + span, form input:valid ~ span{
+form input:focus+span, form input:valid~span {
   top: -12px;
-  left: 62px;
+  left: 64px;
+  color: #656161;
 }
-form button{
+
+form button {
+  color: #FFF;
   display: block;
   margin: 20px auto;
   width: 150px;
   height: 35px;
+  outline: none;
   border: none;
   border-radius: 15px;
-  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+  transition: 0.3s;
+}
+form button:hover{
+  background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+}
+form p{
+  text-align: center;
+  font-size: 10px;
+  color: #ab9e9e;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+form p a{
+  text-decoration: none;
+  color: #474149;
 }
