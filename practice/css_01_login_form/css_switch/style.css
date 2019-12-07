@@ -1,0 +1,32 @@
+.switch {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 80px;
+  height: 40px;
+  background-color: #DDD;
+  border-radius: 20px;
+  border: 1px solid #BBB;
+  position: relative;
+  transition: 0.3s;
+  border-style: none;
+}
+.switch::after{
+  content: "";
+  width: 38px;
+  height: 38px;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  background-color: #FFF;
+  position: absolute;
+  transition: 0.3s;
+}
+.switch:checked{
+  background-color: tomato;
+  border: 1px solid tomato;
+}
+.switch:checked::after{
+  top: 0px;
+  left: 40px;
+}
