@@ -3,7 +3,6 @@ body{
   font-family: roboto, sans-serif;
   margin: 0;
   padding: 0;
-
 }
 .intro{
   height: 450px;
@@ -46,4 +45,7 @@ body{
   font-weight: 600;
   background-color: #ed5457;
   border-radius: 4px;
+}
+.intro .intro-content .btn-join:hover{
+  background-color: #F00;
 }

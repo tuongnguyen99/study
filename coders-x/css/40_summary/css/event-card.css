@@ -6,6 +6,7 @@ body{
   justify-content: center;
   align-items: center;
 }
+
 .event-card{
   width: 350px;
   height: 250px;
@@ -16,6 +17,10 @@ body{
   display: flex;
   flex-direction: column;
   position: relative;
+}
+.event-card:hover{
+  transform: translate(0px, -2px);
+    box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.16);
 }
 .event-card .ev-time{
   margin: 0;
@@ -57,4 +62,8 @@ body{
   line-height: 40px;
   text-align: center;
   color: #656161;
+  z-index: 3;
+}
+.event-card .btn-attend:hover{
+  background-color: #45a1b1;
 }
