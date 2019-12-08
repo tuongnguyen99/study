@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+body{
+  font-family: roboto, sans-serif;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.event-card{
+  width: 350px;
+  height: 250px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.16);
+  border-radius: 8px;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.event-card .ev-time{
+  margin: 0;
+  color: #45a1b1;
+  text-transform: uppercase;
+}
+.event-card .ev-title{
+  margin: 10px 0;
+  line-height: 28px;
+}
+.event-card .ev-groupname{
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #525252;
+}
+.event-card .ev-place i{
+  margin-right: 10px;
+}
+.event-card .ev-place{
+    color: #949ca0;
+    font-size: 16px;;
+}
+.event-card .ev-attendee{
+  position:absolute;
+  bottom: 40px;
+  left: 20px;
+  font-weight: 300;
+  font-size: 14px;
+  color: #949ca0;
+}
+.event-card .btn-attend{
+  width: 80px;
+  height: 40px;
+  border: 1px solid #45a1b1;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  line-height: 40px;
+  text-align: center;
+  color: #656161;
+}
