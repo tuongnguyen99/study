@@ -1,0 +1,10 @@
+html
+  head
+    title users
+  body
+    form(action='/users/search', method='GET')
+      input(type='text', name="name", value= key)
+      button Search
+    ul
+      each user in users
+        li= user.name
