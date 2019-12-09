@@ -1,0 +1,8 @@
+html
+  head
+    title Users
+  body
+    a(href= "/users/new") New
+    ol
+      each user in users
+        li= user.name
