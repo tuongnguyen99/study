@@ -1,0 +1,13 @@
+body{
+  font-family: sans-serif;
+}
+.category ul{
+  list-style: none;
+  display: flex;
+}
+.category ul li{
+  width: 140px;
+  padding: 4px;
+  margin: 10px;
+  background-color: #EEE;
+}
