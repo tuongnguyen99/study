@@ -1,0 +1,10 @@
+html
+  head
+    title users
+  body
+    form(action= "/users", method="POST")
+      input(type="text", name="name")
+      button add
+    ul
+      each user in users
+        li= user.name
