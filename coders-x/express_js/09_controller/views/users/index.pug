@@ -1,0 +1,18 @@
+html
+  head
+    title users
+  body
+    form(action="users/new", method="POST")
+      span Add new user
+      br
+      input(type="text", name="name")
+      br
+      input(type="number" name="age")
+      br
+      button Add
+    hr
+    each user in users
+      li
+        p= "Name: " + user.name
+        p= "Age: " + user.age
+      
