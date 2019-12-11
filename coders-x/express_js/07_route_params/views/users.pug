@@ -1,0 +1,9 @@
+html
+  head
+    title users
+  body
+    ol
+      each user in users
+        li
+          span= user.name
+          a(href="/users/" + user.id) view
