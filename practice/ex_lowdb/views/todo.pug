@@ -1,0 +1,10 @@
+html
+  head
+    title users
+  body
+    form(action="/todo/new", method= "POST")
+      input(type="text", name="name")
+      button add
+    ol
+      each todo in todos
+        li= todo.name

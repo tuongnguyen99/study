@@ -1,6 +1,6 @@
 const express = require('express');
-const low = require('lowdb');
 const port = 9999;
+const low = require('lowdb');
 const app = express();
 var bodyParser = require('body-parser');
 app.use(bodyParser.urlencoded({ extended: false }));
