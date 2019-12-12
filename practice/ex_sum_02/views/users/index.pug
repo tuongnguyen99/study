@@ -1,0 +1,12 @@
+extends ../base
+block head
+  title Users
+block body
+  each user in users
+    li
+      div
+        p= "Name: " + user.name
+        p= "Age: " + user.age
+        a(href="/users/" + user.id) View
+        hr
+  a(href = '/users/new') New user

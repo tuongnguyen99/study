@@ -1,0 +1,14 @@
+extends ../base
+
+block head
+  title New users
+block body
+  form(action="/users/new", method="POST")
+    span Name
+    input(type="text", name="name")
+    br
+    span Age
+    input(type="number", name="age")
+    br
+    button Add
+    
