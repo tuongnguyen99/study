@@ -1,0 +1,26 @@
+{
+  "name": "nodemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.4",
+    "express": "^4.17.1",
+    "lowdb": "^1.0.0",
+    "md5": "^2.2.1",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4",
+    "uniqid": "^5.2.0"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "db.json"
+    ]
+  }
+}
