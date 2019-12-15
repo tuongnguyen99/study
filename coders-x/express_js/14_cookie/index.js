@@ -14,7 +14,6 @@ app.get('/cookie', (req, res, next) => {
   res.send(req.cookies);
 });
 
-
 app.listen(port, () => {
   console.log('app listening on port '+ port);
 });

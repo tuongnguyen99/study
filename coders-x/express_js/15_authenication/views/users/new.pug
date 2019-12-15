@@ -1,0 +1,18 @@
+extends ../base
+
+block head
+  title New users
+block body
+  .container
+    if errs
+      each err in errs
+        .alert.alert-danger= err
+    form(action="/users/new", method="POST")
+      .form-group
+        label(for="userName") Name
+        input.form-control(type="text", name="name", id="userName", value=value?value.name: "")
+      .form-group
+        label(for="userAge") Age
+        input.form-control(type="number", name="age", id="userAge", value=value? value.age: "")
+      <button type="submit" class="btn btn-primary">Submit</button>
+      
