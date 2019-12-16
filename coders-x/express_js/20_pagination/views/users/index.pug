@@ -1,0 +1,24 @@
+extends ../base
+block head
+  title Users
+block body
+  div.container.mt-5
+    form.form-inline(action="/users/search", method="GET")
+      input.form-control.mr-sm-2(typte="search", placeholder="Search", name="name")
+      button.btn.btn-outline-primary.my-2.my-sm-0 Search
+    a.btn.btn-sm.btn-success.ml-auto.flex-wrap(href="/users/new") New
+    .container
+    table.table.table-striped
+      thead
+        tr
+          th(scope="col") Name
+          th(scope="col") Age
+          th(scope="col") Action
+      tbody
+        each user in users
+          tr
+            td= user.name
+            td= user.age
+            td
+              a.btn.btn-sm.btn-primary(href="/users/"+user.id, role="button") View
+          
